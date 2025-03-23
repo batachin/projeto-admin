@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
     <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <div class="barra-lateral">
         <div class="opcao">
+            <h1 class="logo" id="dashboard" >Dashboard</h1>
             <div class="logo" id="dashboard">Dashboard</div>
             <div class="opcoes" id="home">Home</div>
             <div class="opcoes" id="profile">Profile</div>
@@ -20,65 +22,76 @@
             <div class="opcoes" id="privacy">Privacy</div>
         </div>
 
+
     </div>
 
     <div class="cabecalho">
         <input class="pesquisa" type="text" >
-        <div class="nick"> Name</div>
-        <div class="name">name (@name)</div>
+        <h1 class="name">name (@name)</h1>
        
         <div class="buttons">
-            <button class="button">New</button>
-            <button class="button">Upload</button>
-            <button class="button">Share</button>
+            <button class="button" id="New">New</button>
+            <button class="button" id="Upload">Upload</button>           
+            <button class="button" id="Share">Share</button>
         </div>
 
+        
     </div>
 
-    <div class="conteineres">
-        <div class="titule">Your Projects</div>
+    <div class="conteiner">
+        <h2 class="project">Your Projects</h2>
         <div class="cards" id="conteineres">
-            <div class="card">
+            <div class="card-conteiner">
                 <div class="titule-card">Titulo</div>
                 <div class="descricao">Descrição</div>
             </div>
-            <div class="card">
+            <div class="card-conteiner">
                 <div class="titule-card">Titulo</div>
                 <div class="descricao">Descrição</div>
             </div>
-            <div class="card">
+            <div class="card-conteiner">
                 <div class="titule-card">Titulo</div>
                 <div class="descricao">Descrição</div>
             </div>
-            <div class="card">
+            <div class="card-conteiner">
                 <div class="titule-card">Titulo</div>
                 <div class="descricao">Descrição</div>
             </div>
-            <div class="card">
+            <div class="card-conteiner">
                 <div class="titule-card">Titulo</div>
                 <div class="descricao">Descrição</div>
             </div>
-            <div class="card">
+            <div class="card-conteiner">
                 <div class="titule-card">Titulo</div>
                 <div class="descricao">Descrição</div>
             </div>
         </div>
 
         <div class="announcements">
-            <div class="titule">Announcements</div>
+            <h2 class="announcement">Announcements</h2>
             <div class="cards" id="announcements">
-                <div class="titule-announcements">Titulo</div>
-                <div class="descricao-announcements">Descricao</div>
-                <div class="titule-announcements">Titulo</div>
-                <div class="descricao-announcements">Descricao</div>
-                <div class="titule-announcements">Titulo</div>
-                <div class="descricao-announcements">Descricao</div>
+                <div class="card-announcements">
+                    <div class="titule-announcements">Titulo</div>
+                    <div class="descricao-announcements">Descricao</div>
+                </div>
+                <div class="card-announcements">
+                    <div class="titule-announcements">Titulo</div>
+                    <div class="descricao-announcements">Descricao</div>
+                </div>
+                <div class="card-announcements">
+                    <div class="titule-announcements">Titulo</div>
+                    <div class="descricao-announcements">Descricao</div> 
+                </div>
+               
+
+
             </div>
         </div>
 
-        <div class="titule">Trending</div>
+        <h2 class="trending">Trending</h2>
         <div class="perfils">Tem ninguem aqui...</div>
     </div>
     
 </body>
 </html>
+
